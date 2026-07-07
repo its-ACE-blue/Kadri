@@ -142,8 +142,13 @@ main {
 
     width: 90%;
 
-    margin: auto;
+    margin: 50px auto;
 
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 40px;
 }
 
 .category {
